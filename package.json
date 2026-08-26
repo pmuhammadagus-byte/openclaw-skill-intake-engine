@@ -1,9 +1,14 @@
 {
   "name": "@pmuhammadagus-byte/openclaw-skill-intake-engine",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Secure intake, analysis, validation and registry tooling for OpenClaw skills.",
   "type": "module",
-  "files": ["dist", "openclaw.plugin.json", "README.md", "LICENSE"],
+  "files": [
+    "dist",
+    "openclaw.plugin.json",
+    "README.md",
+    "LICENSE"
+  ],
   "scripts": {
     "build": "tsc",
     "plugin:build": "npm run build && openclaw plugins build --entry ./dist/index.js",
@@ -17,7 +22,9 @@
     "openclaw": ">=2026.5.17"
   },
   "openclaw": {
-    "extensions": ["./dist/index.js"],
+    "extensions": [
+      "./dist/index.js"
+    ],
     "compat": {
       "pluginApi": ">=2026.5.17"
     },
