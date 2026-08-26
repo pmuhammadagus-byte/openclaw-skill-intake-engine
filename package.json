@@ -1,5 +1,5 @@
 {
-  "name": "@local/openclaw-skill-intake-engine",
+  "name": "@pmuhammadagus-byte/openclaw-skill-intake-engine",
   "version": "0.1.0",
   "description": "Secure intake, analysis, validation and registry tooling for OpenClaw skills.",
   "type": "module",
