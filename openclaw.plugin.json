@@ -1,0 +1,23 @@
+{
+  "id": "skill-intake-engine",
+  "name": "Skill Intake & Integration Engine",
+  "description": "Securely analyze, validate and prepare OpenClaw skills for integration.",
+  "version": "0.1.0",
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "maxReadBytes": {
+        "type": "number",
+        "description": "Maximum bytes read from a skill file during analysis."
+      }
+    }
+  },
+  "contracts": {
+    "tools": [
+      "skill_intake_analyze",
+      "skill_intake_validate",
+      "skill_intake_registry_entry"
+    ]
+  }
+}
