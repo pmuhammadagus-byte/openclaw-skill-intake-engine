@@ -1,6 +1,6 @@
 {
   "name": "@pmuhammadagus-byte/openclaw-skill-intake-engine",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Secure intake, analysis, validation and registry tooling for OpenClaw skills.",
   "type": "module",
   "files": [
@@ -35,5 +35,6 @@
   },
   "devDependencies": {
     "typescript": "^5.8.3"
-  }
+  },
+  "main": "dist/index.js"
 }
